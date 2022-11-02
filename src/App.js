@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import image from './image.jpg';
 import Likes from "./components/likes/Likes";
-import store from "./redux/store";
+
 
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
                 <div className="card">
                     <div className="card-image">
                         <img src={image} alt="image"/>
-                         <Likes store={store}/>
+                         <Likes/>
                     </div>
                 </div>
             </div>
